@@ -12,8 +12,20 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+~~~
+def result(a, b):
+    print(a % b)
 
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+result(x, y)
+~~~
 ## Output
-
+~~~
+Enter first number: 10
+Enter second number: 3
+1
+~~~
 ## Result
+thus the program is verified
